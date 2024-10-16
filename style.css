@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f6fcff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6fcff;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+    padding-left: 5rem;
+    font-family: "Exo 2", sans-serif;
+
+}
+.container{
+    display: grid;
+    height: 30rem;
+    width: 30rem;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 25px;
+    background: #ffffff;
+    border: .2px solid hsl(0, 0%, 86%);
+}
+@media (width < 600px){
+    body{
+        height: auto;
+    }
+    main{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .container{
+        height: 22rem;
+        width: 22rem;
+    }
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+#color-changer{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 180px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#range::-webkit-color-swatch{
+    border-radius: 50%;
+    border: none;
+}
+#range::-moz-color-swatch{
+    border-radius: 25px;
+    border: none;
+}
+.button{
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #52a7e0;
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 600;
+    transition: 250ms;
+}
+.button:hover{
+    background: #4a98cc;
+}
+.para{
+   color: #52a7e0;
+   font-weight: 600;
+   font-size: 1.1rem;
+   text-align: center;
+}
+#range{
+    height: 10px;
+    width: 180px;
+    outline: none;
+    border-radius: 25px;
+    /* -webkit-appearance: none; */
+}
+.attribution { font-size: 16px; text-align: center;padding-top: 20px; }
+.attribution a { color: #4a98cc }
+/* .range-input{
+    display: flex;
+    width: 180px;
+    /* gap: .5rem; */
+    /*font-size: 1.075rem;
+    background: red;
+    font-weight: 600;
+    text-align: center;
+}
+.para{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    background-color: blue;
+} */
