@@ -9,5 +9,7 @@ Recipe Page: [View Live](https://recipe-odin-project.netlify.app/)
 Etch-a-Sketch: [View Live](https://etch-a-sketch-odin-project-eyu32.netlify.app/)
 
 Calculator: [View Live](https://calculator-odin-project-eyu32.netlify.app/)
+Library: [View Live](https://eyu-odin-library.netlify.app/)
+
 
 Stay tuned for more projects coming soon! 🚀
