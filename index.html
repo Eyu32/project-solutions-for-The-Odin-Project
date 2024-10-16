@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba40759956.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/fav.svg" type="image/x-icon">
+    <script src="app.js" defer></script>
+    <title>Odin Library</title>
+</head>
+<body>
+
+    <header>
+        <img src="assets/logo.png" alt="">
+        <form action="" id="search-bar">
+            <input id="search" type="text" placeholder="Search Title">
+        </form>
+    </header>
+    <main>
+        <h1>Reading makes a full man.</h1>
+        <div class="container">
+            <div class="book">
+                <img src="assets/Lela sew.jpg" alt="book cover image">
+                <p class="pages">451 Pages</p>
+                <p class="author"><span>Author</span> Dr. Mehret Debebe</p>
+                <p class="title">ሌላሠው</p>
+                <div class="book-flex">
+                    <p class="check-to-read" >Read</p>
+                    <a class="link-to-book" href="https://www.goodreads.com/book/show/26013197" target="_blank">Continue Reading <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <i class="fa-solid fa-trash-can fa-bounce" id="trash" style="color: #ea5353;"></i>
+            </div>
+
+            <div class="book">
+                <img src="assets/Fikir eske mekaber.jpg" alt="book cover image">
+                <p class="pages">____ Pages</p>
+                <p class="author"><span>Author</span> Haddis Alemayehu</p>
+                <p class="title">Fikir Eske Mekaber (Amharic Edition): ፍቅር እስከ መቃብር</p>
+                <div class="book-flex">
+                    <p class="check-to-read" >Read</p>
+                    <a class="link-to-book" href="https://www.goodreads.com/book/show/53713557-fikir-eske-mekaber-amharic-edition?ac=1&from_search=true&qid=XupHwoHJsQ&rank=1" target="_blank">Continue Reading <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <i class="fa-solid fa-trash-can fa-bounce" id="trash" style="color: #ea5353;"></i>
+            </div>
+
+            <div class="book">
+                <img src="assets/Emgua.jpg" alt="book cover image">
+                <p class="pages">____ Pages</p>
+                <p class="author"><span>Author</span> Alemayehu Wase</p>
+                <p class="title">Emegua (Amharic Edition): እመጓ</p>
+                <div class="book-flex">
+                    <p class="check-to-read">Read</p>
+                    <a class="link-to-book" href="https://www.goodreads.com/book/show/53550025-emegua-amharic-edition?ref=nav_sb_ss_1_6" target="_blank">Continue Reading <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <i class="fa-solid fa-trash-can fa-bounce" id="trash" style="color: #ea5353;"></i>
+            </div>
+
+            <div class="book">
+                <img src="assets/Ke admas bashager.jpg" alt="book cover image">
+                <p class="pages">76 Pages</p>
+                <p class="author"><span>Author</span> Baalu Girma</p>
+                <p class="title">Ke Admas Bashager (Amharic Edition): ከአድማስ ባሻገር</p>
+                <div class="book-flex">
+                    <p class="check-to-read" >Read</p>
+                    <a class="link-to-book" href="https://www.goodreads.com/book/show/56510195-ke-admas-bashager-amharic-edition?ref=nav_sb_ss_1_12" target="_blank">Continue Reading <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <i class="fa-solid fa-trash-can fa-bounce" id="trash" style="color: #ea5353;"></i>
+            </div>
+
+            <div class="book">
+                <img src="assets/Keletat gimash ken.jpg" alt="book cover image">
+                <p class="pages">287 Pages</p>
+                <p class="author"><span>Author</span> Alex Abrham</p>
+                <p class="title">ከዕለታት … ግማሽ ቀን</p>
+                <div class="book-flex">
+                    <p class="check-to-read" >Read</p>
+                    <a class="link-to-book" href="https://www.goodreads.com/book/show/55888531?ref=rae_15" target="_blank">Continue Reading <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <i class="fa-solid fa-trash-can fa-bounce" id="trash" style="color: #ea5353;"></i>
+            </div>
+
+        </div>
+        <form action="" id="book-detail-input">
+            <div class="input-detail">
+                <label for="book-name">Book Name</label>
+                <input class="text-input" type="text" name="Book-Name" id="book-name" required>
+                
+            </div>
+
+            <div class="input-detail">
+                <label for="author">Author</label>
+                <input class="text-input" type="text" name="Author-Name" id="author" required>
+                
+            </div>
+
+            <div class="input-detail">
+                <label for="url">URL</label>
+                <input class="text-input" type="url" name="Source-Url" id="url" required>
+                
+            </div>
+
+            <div class="input-detail">
+                <label for="page-no">Page Number</label>
+                <input class="text-input" type="number" name="Page-Number" id="page-no" required>
+                
+            </div>
+
+            <div class="input-detail">
+                <label class="thumbnail" for="thumbnail">Choose Thumbnail (optional)</label>
+                <input class="text-input" type="file" accept="image/jpeg, image/png, image/jpg" name="Thumbnail" id="thumbnail"  required>
+            </div>
+            <p id="read" class="check-to-read">unRead</p>
+            <button id="add-btn">Add</div>
+        </form>
+    </main>
+    <div class="add-book">
+        <div class="cross"></div>
+        <div class="cross"></div>
+    </div>
+    <div class="attribute">© 2024 <a href="">Eyu Birhanu.</a> All rights reserved.</div>
+</body>
+</html>
