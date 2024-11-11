@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tae Toe</title>
+</head>
+<body>
+    <h1 class="title">Tic-tac-toe</h1>
+    <div class="gameContainer">
+        
+        <div class="verses">
+            <p>Person <br> <span class="vs"><span class="v">V</span><span class="s">s</span></span> <br>Computer</p>
+            <div class="box">
+                <div class="dot"></div>
+            </div>
+            <p>Person <br> <span class="vs"><span class="v">V</span><span class="s">s</span></span> <br>Person</p>
+        </div>
+        <div class="cellContainer">
+            <div cellIndex="0"class="cell"></div>
+            <div cellIndex="1"class="cell"></div>
+            <div cellIndex="2"class="cell"></div>
+            <div cellIndex="3"class="cell"></div>
+            <div cellIndex="4"class="cell"></div>
+            <div cellIndex="5"class="cell"></div>
+            <div cellIndex="6"class="cell"></div>
+            <div cellIndex="7"class="cell"></div>
+            <div cellIndex="8"class="cell"></div>
+        </div>
+        <h2 id="staticText"></h2>
+        <button id="restartBtn">Restart</button>
+    </div>
+    <script id="script" type="module" src="game.js"></script>
+</body>
+</html>

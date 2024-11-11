@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*,*::after,::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    background: #f8f1de;
+    color: #2e4f5e;
+
+}
+.title{
+    font-size: 3rem;
+    line-height: .2;
+    padding: .5rem;
+}
+:root{
+    --cell-size: 90px;
+    --mark-size: calc(var(--cell-size) * .9)
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+.verses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.175rem;
+    font-weight: bold;
+    opacity: .8;
+}
+.box{
+    width: 50px;
+    height: 22px;
+    border-radius: 25px;
+    padding-inline: .2rem;
+    position: relative;
+    
+    background: #2e4f5e;
+    cursor: pointer;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s;
+}
+.box.active .dot{
+    left: 29px;
+}
+.vs{
+    font-size: 1.15rem;
+    font-family: "Nova Square", sans-serif;
+    font-weight: 900;
+}
+.v{
+    color: #fe4638;
+}
+.s{
+    color: #3276ff;
+}
+.cellContainer{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    gap: .5rem;
+}
+.cell{
+    font-family: "Nerko One", cursive;
+    font-size: 6rem;
+    font-weight: 900;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8de9e5;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background .4s;
+}
+.cell:hover{
+    background: #77c9c5;
+}
+#restartBtn{
+    width: 140px;
+    height: 45px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #ece7c3;
+    background: #429ed2;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
