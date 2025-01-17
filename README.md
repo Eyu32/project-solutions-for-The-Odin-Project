@@ -13,23 +13,23 @@ This repository's main branch contains all the projects organized by their respe
 ## Projects  
 
 ### 1. Library Project  
-- **Branch:** [library-project](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/library-project)  
+- **Branch:** [Odin-Library](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/Odin-Library)  
 - **Live Preview:** [Library Project Live View](https://eyu-odin-library.netlify.app/)  
 
 ### 2. Tic-Tac-Toe Game  
-- **Branch:** [tic-tac-toe](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/tic-tac-toe)  
+- **Branch:** [Tic-Tac-Toe](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/Tic-Tac-Toe)  
 - **Live Preview:** [Tic-Tac-Toe Live View](https://tic-tac-toe-eyu-odin.netlify.app/)  
 
 ### 3. Etch-A-Sketch  
-- **Branch:** [etch-a-sketch](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/etch-a-sketch)  
+- **Branch:** [Odin--Ethc-Sketch](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/Odin--Ethc-Sketch)  
 - **Live Preview:** [Etch-A-Sketch Live View](https://etch-a-sketch-odin-project-eyu32.netlify.app/)  
 
 ### 4. Calculator  
-- **Branch:** [calculator](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/calculator)  
+- **Branch:** [Odin-Calculator](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/Odin-Calculator)  
 - **Live Preview:** [Calculator Live View](https://calculator-odin-project-eyu32.netlify.app/)  
 
 ### 5. Recipe Page  
-- **Branch:** [recipe-page](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/recipe-page)  
+- **Branch:** [Odin-Recipes](https://github.com/Eyu32/project-solutions-for-The-Odin-Project/tree/Odin-Recipes)  
 - **Live Preview:** [Recipe Page Live View](https://recipe-odin-project.netlify.app/)  
 
 ---
