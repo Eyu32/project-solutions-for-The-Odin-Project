@@ -1,4 +1,4 @@
-# The Odin Project Solutions  
+# The Odin Project Solutions   
 
 Welcome to my collection of project solutions from **The Odin Project**! Over the course of my learning journey, I’ve built various projects to apply and solidify the concepts taught in the curriculum. This repository contains all my completed projects, ranging from simple layouts to interactive web applications.  
 
